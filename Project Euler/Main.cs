@@ -15,11 +15,12 @@ namespace Project_Euler
             // Test cases for the problems go here
             var problem1 = new Problem1 {Num = 1000};
             var problem2 = new Problem2 {Nth = 4000000};
-
+            var problem3 = new Problem3 {Num = 600851475143};
             
             // Log our solutions
             Console.WriteLine("Answer to Problem 1: {0}", problem1.SumMult());
             Console.WriteLine("Answer to Problem 2: {0}", problem2.Fibonacci());
+            Console.WriteLine("Answer to Problem 3: {0}", problem3.PrimeFac());
         }
     }
 }
