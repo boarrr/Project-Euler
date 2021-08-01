@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace Project_Euler
 {
-    public class Problem4
+    public static class Problem4
     {
         public static int Palindrome()
         {

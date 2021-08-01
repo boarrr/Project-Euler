@@ -16,7 +16,6 @@ namespace Project_Euler
             var problem1 = new Problem1 {Num = 1000};
             var problem2 = new Problem2 {Nth = 4000000};
             var problem3 = new Problem3 {Num = 600851475143};
-            var problem5 = new Problem5();
 
             // Log our solutions
             Console.WriteLine("Answer to Problem 1: {0}", problem1.SumMult());
