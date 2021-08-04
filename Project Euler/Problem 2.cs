@@ -10,6 +10,11 @@ namespace Project_Euler
     {
         public int Nth { get; init; }
 
+        /*
+         * Modified Fibonacci sequence function up until number
+         * Check if the nextTerm is an even number
+         * If it is, add that onto the total then return
+         */
         public int Fibonacci()
         {
             var term2 = 1;
@@ -18,8 +23,7 @@ namespace Project_Euler
 
             while (nextTerm <= Nth)
             {
-                if (nextTerm % 2 == 0)
-                    sum += nextTerm;
+                if (nextTerm % 2 == 0) sum += nextTerm;
                 
                 var term1 = term2;
                 term2 = nextTerm;

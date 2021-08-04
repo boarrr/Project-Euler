@@ -8,7 +8,12 @@ namespace Project_Euler
     public static class Problem5
     {
 
-        // Brute Force seems easiest
+        /*
+         * Brute Force seems easiest
+         * Iterate downwards from Three-hundred-million
+         * Find the number that has no remainder
+         * Return it
+         */
         public static int RemainderFunc()
         {
             for (var i = 300000000; i > 0; i--)

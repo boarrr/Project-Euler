@@ -11,17 +11,18 @@ namespace Project_Euler
         public int Num { get; init; }
         private int Total { get; set; }
 
+        /*
+         * Iterate through all the numbers up until the target
+         * Check if its a multiple of either 3 or 5
+         * If it is, add it onto the total.
+         */
         public int SumMult()
         {
             Total = 0;
-            int i;
-            
-            for (i = 0; i < Num; i++)
+ 
+            for (var i = 0; i < Num; i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
-                {
-                    Total += i;
-                }
+                if (i % 3 == 0 || i % 5 == 0) Total += i;
             }
             
             return Total; // Answer is 233168
